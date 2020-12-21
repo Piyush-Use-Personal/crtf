@@ -1,0 +1,24 @@
+{
+  "name": "crtf",
+  "version": "1.0.0",
+  "description": "A Package which has A Set of methods for newly added file extention .crtf",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush-Use-Personal/crtf.git"
+  },
+  "keywords": [
+    "crtf"
+  ],
+  "author": "Piyush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piyush-Use-Personal/crtf/issues"
+  },
+  "homepage": "https://github.com/Piyush-Use-Personal/crtf#readme"
+}
