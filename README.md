@@ -5,6 +5,7 @@ A Playground Library for .crtf Extention
 CRTF is a file extention for reusing a text file with minor change where one can write a text file along with the few variable which developer can manupulate in time. This library provides an access to read and convert this kind of file into native text or any provided form
 
 **Sample .crtf File**
+
 ![Alt text](static/img/crtfSampleImage.png?raw=true "File which has 2 section one is Variable and another is Content")
 
 # Installation
