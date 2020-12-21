@@ -23,7 +23,7 @@ npm install crtf
 # Creating a CRTF instance
 ***Do not use Contructor for the same***
 ```
-import CRTF from "./control.js";
+import CRTF from 'crtf';
 
 let crtf;
 CRTF.build('path of the crtf file', 'encoding').then(obj => {
@@ -35,7 +35,7 @@ CRTF.build('path of the crtf file', 'encoding').then(obj => {
 or
 
 ```
-import CRTF from "./control.js";
+import CRTF from 'crtf';
 
 let crtf = await CRTF.build('path of the crtf file', 'encoding');
 ```
@@ -44,7 +44,7 @@ let crtf = await CRTF.build('path of the crtf file', 'encoding');
 * getContent - returns a raw content of the .crtf file
 
 ```
-import CRTF from "./control.js";
+import CRTF from 'crtf';
 
 let crtf = await CRTF.build('path of the crtf file', 'encoding');
 
@@ -55,7 +55,7 @@ let rawContent = crtf.getContent();
 * getVariables - returns a raw variables of the .crtf file
 
 ```
-import CRTF from "./control.js";
+import CRTF from 'crtf';
 
 let crtf = await CRTF.build('path of the crtf file', 'encoding');
 
@@ -66,7 +66,7 @@ let rawContent = crtf.getVariables();
 * replaceContent - returns a replaced content of the .crtf file from given variable objects
 
 ```
-import CRTF from "./control.js";
+import CRTF from 'crtf';
 
 let crtf = await CRTF.build('path of the crtf file', 'encoding');
 
@@ -82,7 +82,7 @@ let rawContent = crtf.replaceContent(obj);
 
 * replaceContentAndWrite - write to file with a replaced content of the .crtf file from given variable objects
 ```
-import CRTF from "./control.js";
+import CRTF from 'crtf';
 
 let crtf = await CRTF.build('path of the crtf file', 'encoding');
 
