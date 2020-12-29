@@ -8,6 +8,25 @@ CRTF is a file extention for reusing a text file with minor change where one can
 
 ![Alt text](/static/img/crtfSampleImage.PNG?raw=true "File which has 2 section one is Variable and another is Content")
 
+#output
+```
+if object = {
+    name : "Piyush",
+    date : "29/12/2020",
+    description : "Created a file which will update the UI"
+}
+
+The output will look like below for above content
+OUTPUT:-
+
+/**
+ * Created by Piyush on 29/12/2020
+ * Created a file which will update the UI
+ * Updated by Piyush on 29/12/2020
+ * Created a file which will update the UI
+*/
+```
+
 # Installation
 ```
 npm install crtf
