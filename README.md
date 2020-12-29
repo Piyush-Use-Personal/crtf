@@ -6,7 +6,7 @@ CRTF is a file extention for reusing a text file with minor change where one can
 
 **Sample .crtf File**
 
-![Alt text](static/img/crtfSampleImage.png?raw=true "File which has 2 section one is Variable and another is Content")
+![Alt text](/static/img/crtfSampleImage.PNG?raw=true "File which has 2 section one is Variable and another is Content")
 
 # Installation
 ```
