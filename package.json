@@ -1,6 +1,6 @@
 {
   "name": "crtf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Package which has A Set of methods for newly added file extention .crtf",
   "main": "index.js",
   "type": "module",
